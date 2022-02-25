@@ -10,4 +10,12 @@ spring:
    show-sql: true
    properties:
     hibernate:
-    format-sql: true
+    format-sql: true 
+  application:
+    name: one-to-one-caching
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8763/eureka
