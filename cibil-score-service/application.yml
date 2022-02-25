@@ -1,6 +1,5 @@
 spring:
-  application:
-    name: Student Service
+
   datasource:
     driver-class-name: oracle.jdbc.OracleDriver
     password: HR
